@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Define a custom margin top */
+.mt-7 {
+  margin-top: 4rem; 
+}
+input[type="text"] {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.question-container {
+  width: 1150px;
+  height:750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.custom-hover:hover {
+  background-color: lightpink;
+  color: white; /* Optional: Change text color to white */
+  cursor: pointer;
+}
+.score-container {
+  
+  width:40vw;
+  height:50vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+.text-pink {
+  background-color: #f7f5f5;
+  color: rgb(175, 117, 125)
+}
+.timer{
+  font-size:large;
+  font-weight: bold;
+}
+ 

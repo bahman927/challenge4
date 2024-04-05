@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Quiz</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container"> 
+    <div class="question-container" id="question-container">
+      <div class="row">
+        <div class="col-6 text-start fs-5 fw-bold">
+          <button class="text-pink" onclick="goToCheckPage()" >View High Score</button>
+        </div>
+        <div class="col-6 text-end m">
+          <p class="timer">Time:<span id="timer"></span></p>
+        </div>
+      </div>
+    
+      <h1 class="text-center mt-7 fw-bold">JavaScript Quiz</h1>
+    
+      <div id="question" class="fs-3 fw-bold mt-4"></div>
+      <div id="choices" class=" fs-4 fw-bold  mt-4"></div>
+      <div id="result" class="fs-3 mt-5"></div>
+      <div id="feedback" class=" fs-3 mt-3"></div>
+      <button id="start"  class="btn btn-primary mt-3">Start Quiz</button>
+      
+      <div id="highscores" class="mt-4"></div>
+    </div>
+
+    <div class="score-container"  style="display:none" id="score-container">
+      <div class="row">
+        <div class="col-8 mb-4  mt-5 fs-5 fw-bold">
+         <input type="text" id="input1" class="text-center ml-5" placeholder="enter your initial">
+         
+         <button id="submit" class="btn btn-primary fs-5 w-2 ml-5 mt-3">Submit initial</button> 
+        </div>
+        <div class="col-8  fs-5 fw-bold">
+          <div id='scores' > Highest Scores : </div>
+          <button id="goBack" class="btn btn-primary fs-5 w-2 mt-2">go back</button> 
+        </div>    
+      </div> 
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
