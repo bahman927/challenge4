@@ -12,7 +12,7 @@ This is a sample quiz application primarily designed for the process of intervie
 
 To use the application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/bahman927/challenge-4.git`
+1. Clone the repository: `git clone https://github.com/bahman927/challenge4.git`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
@@ -29,6 +29,7 @@ To use the application, follow these steps:
 - JavaScript
 - Bootstrap
  
- ![](./images/Screenshot.png)g
+ ![](./images/Screenshot.png)
+ deploy link: https://bahman927.github.io/challenge4/
 
 
